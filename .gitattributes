@@ -32,6 +32,13 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# JScript source file
+# Currently identifying as JavaScript for Linguist compatibility
+# Both JScript and JavaScript use the same file extension
+*.js linguist-detectable=true
+*.js linguist-documentation=false
+*.js linguist-language=JavaScript
+# *.js linguist-language=JScript
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -164,7 +171,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2022, Thursday, October 6th at 12:58 pm PST)
+# Line count (including blank lines and compiler line): 178
 # End of script
